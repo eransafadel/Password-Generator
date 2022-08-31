@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Container } from './OptionBox.styles';
+import Widget from './Widget';
 
 const OptionsBox = () => {
   return (
-    <div>OptionsBox</div>
+    <Container>
+        <Widget/>
+    </Container>
   )
 }
 
