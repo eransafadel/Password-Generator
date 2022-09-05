@@ -1,11 +1,15 @@
 import React,{useState} from 'react';
 import {Container,Text,TextNumber,Slider,ContainerText} from "./Widget.styles";
 
-const Widget = () => {
+interface Props {
+  value:number;
+  setValue:React.Dispatch<React.SetStateAction<number>>;
+}
 
-    const [value, setValue] = useState<number>(8);
-  
 
+const Widget:React.FC<Props> = ({value,setValue}) => {
+
+    
   return (
     <Container>
         <ContainerText>

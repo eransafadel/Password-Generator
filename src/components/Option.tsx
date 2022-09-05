@@ -1,10 +1,18 @@
 import React from 'react';
 import  "./Option.css";
 
-const Option = () => {
+interface Props {
+  text: string;  
+  val: boolean;
+  handleChange: ()=>void;
+}
+
+const Option:React.FC<Props> = ({text,val,handleChange}) => {
+
     return <div>
-    <label className="container">Include Upper Letters
-    <input type="checkbox"/>
+     
+    <label className="container">{text}
+    <input type="checkbox"  onChange={handleChange}/>
     <span className="checkmark"/>
   </label>
   </div>
