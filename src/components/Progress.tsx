@@ -7,7 +7,6 @@ interface Props {
 
 const Progress: React.FC<Props> = ({ data }) => {
   let count = 0;
-  const { uppercase, lowercase, numbers, symbols } = data;
   for (const value of Object.values(data)) {
     value && count++;
   }

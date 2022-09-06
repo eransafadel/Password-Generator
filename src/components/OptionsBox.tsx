@@ -5,6 +5,7 @@ import Option from "./Option";
 import Progress from "./Progress";
 import { Conditions,lowerCaseLetters,numbersCase,specialCharacters,upperCaseLetters } from "./macros";
 import {OptionsPassword} from "../OptionsPassword";
+import  Button  from "./Button";
 
 
 const OptionsBox = () => {
@@ -94,6 +95,7 @@ const OptionsBox = () => {
       ))}
 
       <Progress data={password}/>
+     <Button/>
     </Container>
   );
 };

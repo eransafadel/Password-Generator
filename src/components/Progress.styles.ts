@@ -6,7 +6,7 @@ flex-direction: row;
 justify-content: space-between;
 margin:20px 15px ;
 width:90%;
-height:10vh;
+height:8vh;
 background-color:#08001a;
 opacity:0.5;
 
