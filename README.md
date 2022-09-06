@@ -3,13 +3,13 @@ In Process...
 # Frontend - Password Generator
 
 ## Strong 
-![Shopping Website Home](./images/1.jpg)
+![Strong](./images/1.jpg)
 
 ## Weak
-![Shopping Website Products](./images/2.jpg)
+![Weak](./images/2.jpg)
 
 ##Medium
-![Shopping Website Login](./images/3.jpg)
+![Medium](./images/3.jpg)
 
 ## Welcome! 👋
 
