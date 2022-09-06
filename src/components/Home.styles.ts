@@ -14,5 +14,5 @@ color:white;
 font-weight:400;
 font-size:15px;
 letter-spacing: 1px;
-opacity:0.7;
+
 ` 
