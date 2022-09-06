@@ -2,7 +2,14 @@ In Process...
 
 # Frontend - Password Generator
 
-![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg))
+## Strong 
+![Strong](./images/1.jpg)
+
+## Weak
+![Weak](./images/2.jpg)
+
+##Medium
+![Medium](./images/3.jpg)
 
 ## Welcome! 👋
 
