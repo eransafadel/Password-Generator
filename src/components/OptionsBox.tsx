@@ -20,8 +20,8 @@ const OptionsBox = () => {
   const [value, setValue] = useState<number>(2);
   const [generatePassword, setGeneratePassword] = useState<string>("");
 
-  const handleChange = (name: string, action: boolean) => {
-    setPassword({ ...password, [name]: action });
+  const handleChange = (name: string, flag: boolean) => {
+    setPassword({ ...password, [name]: flag });
   };
 
   const createPassword = (characterList: string) => {

@@ -4,12 +4,12 @@ import  "./Option.css";
 interface Props {
   text: string;  
   title: string;
-  handleChange: (name:string,action:boolean)=>void ;
+  handleChange: (name:string,flag:boolean)=>void ;
 }
 
 const Option:React.FC<Props> = ({text,title,handleChange}) => {
 
-  function changeHandler(e: React.ChangeEvent<HTMLInputElement>): void {
+  const changeHandler = (e: React.ChangeEvent<HTMLInputElement>)=> {
     
     handleChange(e.target.name,e.target.checked);
   }
