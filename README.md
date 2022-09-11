@@ -9,7 +9,7 @@ In Process...
 ![Weak](./images/2.jpg)
 
 ## Medium
-![Medium](./images/3.jpg)
+![Medium](./images/4.jpg)
 
 ## Welcome! 👋
 
