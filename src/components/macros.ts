@@ -1,6 +1,7 @@
 
 interface Condition{
     name: string;
+    title:string;
     flag:boolean;
 }
 
@@ -8,19 +9,23 @@ export const Conditions:Condition[] =
 [
     {
         name:"Include Uppercase Letters",
+        title:"uppercase",
         flag:false,
     },
 
     {
         name:"Include Lowercase Letters",
+        title:"lowercase",
         flag:false,
     },
     {
         name:"Include Numbers",
+        title:"numbers",
         flag:false,
     },
     {
         name:"Include Symbols",
+        title:"symbols",
         flag:false,
     },
 ];
